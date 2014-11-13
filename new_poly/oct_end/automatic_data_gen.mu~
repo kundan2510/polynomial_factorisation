@@ -1,0 +1,6 @@
+dat_gen := proc(p)
+begin
+    print(Unquoted,"We are working in F_".expr2text(p)."\n");
+    r = 2;
+    while 2^r < p do
+        
